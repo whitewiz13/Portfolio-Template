@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.js": "/static/js/main.7f7e6dff.chunk.js",
+    "runtime-main.js": "/static/js/runtime-main.18ef86d5.js",
+    "static/js/2.eab0f0ed.chunk.js": "/static/js/2.eab0f0ed.chunk.js",
+    "static/js/3.915b5ed5.chunk.js": "/static/js/3.915b5ed5.chunk.js",
+    "index.html": "/index.html",
+    "static/js/2.eab0f0ed.chunk.js.LICENSE.txt": "/static/js/2.eab0f0ed.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.18ef86d5.js",
+    "static/js/2.eab0f0ed.chunk.js",
+    "static/js/main.7f7e6dff.chunk.js"
+  ]
+}
