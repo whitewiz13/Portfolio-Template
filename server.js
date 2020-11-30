@@ -19,6 +19,9 @@ app.use(express.static(publicPath));
 app.get('/', function (req, res) {
     res.sendFile(path.join(publicPath, 'index.html'));
 });
+app.get('/.well-known/pki-validation/D6DE5AEE3912E92CAA4FD1F2EB64CE18.txt',function(req,res){
+    res.sendFile(path.join(publicPath,"/D6DE5AEE3912E92CAA4FD1F2EB64CE18.txt"));
+});
 app.get('/*', function (req, res) {
     res.sendFile(path.join(publicPath, 'index.html'));
 });
