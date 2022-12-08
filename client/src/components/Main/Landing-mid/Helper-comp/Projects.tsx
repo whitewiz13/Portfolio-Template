@@ -6,7 +6,7 @@ export const Projects = [
         type : "react",
         image : "https://i.imgur.com/aWTILTK.png",
         source: "null",
-        demo : "https://www.randomchat.biz/",
+        demo : "https://randomchat-363f1.firebaseapp.com/",
         content : "Random Chat application can be used to talk to strangers from around the world. You can use Text, Video and Audio chat options to start a conversation and put your interestes to match with like minded strangers!"
     },
     {
@@ -14,7 +14,7 @@ export const Projects = [
         type : "react",
         image : "https://i.imgur.com/klug9u9.png",
         source: "null",
-        demo : "https://video-greet.herokuapp.com/",
+        demo : "https://nice-rose-swallow-cap.cyclic.app/",
         content : "Video Greet lets to host a video/audio conference for more than 50 concurrent users. You can create your own private room and share link with the participants to let them join the room. Host have control over the meeting!"
     },
     {
@@ -22,7 +22,7 @@ export const Projects = [
         type : "react",
         image : "https://i.imgur.com/7jXjwuq.png",
         source: "null",
-        demo : "https://blog.sandeepthakur.co/",
+        demo : "https://lemon-xerus-hat.cyclic.app/",
         content : "Writers Blog lets you create and manage your blog very easily. You get an easy to use and awesome looking dashboard where you can create,edit and delete posts. Upload images with the posts and manage your account details easily!"
     },
     {
@@ -30,7 +30,7 @@ export const Projects = [
         type : "react",
         image : "https://i.imgur.com/WBvLCGd.png",
         source: "null",
-        demo : "https://sandeepthakur.co/",
+        demo : "https://portfolio-wiz.web.app/",
         content : "Portfolio template lets you create your professional looking resume. You can use the premade components and swap between what you require for you portfolio to look asthetically pleasing. Swapping components takes seconds!"
     },
     {
