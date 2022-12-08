@@ -60,7 +60,7 @@ export const Main = () =>{
             <Education ref = {EduRef}/>
             <Skill ref ={SkillRef}/>
             <Project ref = {ProjRef} setBackdrop = {setBackdrop}/>
-            {/* <Blog ref ={BlogRef} setBackDrop = {setBackdrop}/> */}
+            <Blog ref ={BlogRef} setBackDrop = {setBackdrop}/>
             {/* <Contact ref = {ContactRef}/> */}
             <Footer setBackdrop = {setBackdrop}/>
             <Backdrop className={classes.backdrop} open={backDrop}>

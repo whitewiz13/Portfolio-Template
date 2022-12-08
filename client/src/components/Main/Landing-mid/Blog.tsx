@@ -35,7 +35,7 @@ export const Blog:React.FC<{setBackDrop(val),ref: any}> = forwardRef((props,ref)
     const blogRef = useRef(null);
 
     useEffect(()=>{
-        postData("https://blog.sandeepthakur.co/load_posts",{cat:null}).then(data=>{
+        postData("https://lemon-xerus-hat.cyclic.app/load_posts",{cat:null}).then(data=>{
             setBlogList(data.posts);
         });
     },[]);
@@ -63,7 +63,7 @@ export const Blog:React.FC<{setBackDrop(val),ref: any}> = forwardRef((props,ref)
                                 <div style={{textAlign:'right'}}>
                                 <Button size="large" onClick={()=>{
                                     props.setBackDrop(true);
-                                    window.location.href = "https://blog.sandeepthakur.co"
+                                    window.location.href = "https://lemon-xerus-hat.cyclic.app/"
                                 }}>Visit Blog</Button>
                             </div>
                             </Grid>
