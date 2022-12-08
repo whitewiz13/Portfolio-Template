@@ -50,10 +50,10 @@ export const Education = forwardRef((props,ref) =>{
         <React.Fragment>
             <Paper className = {classes.mainAbout} variant="outlined" ref={eduRef}>
                 <Typography component = "h3" variant="h3" style = {{textAlign:'center'}}>
-                    <strong>Education</strong>
+                    <strong>Education / Experience</strong>
                 </Typography>
-                <Grid container alignItems='center' direction="column">
-                    <Grid item xs = {12} style={{width:'800px',textAlign:'center'}}>
+                <Grid container>
+                    <Grid item xs = {6} style={{width:'800px',textAlign:'center'}}>
                         <Timeline align="alternate">
                             <TimelineItem>
                                 <TimelineOppositeContent>
@@ -122,6 +122,58 @@ export const Education = forwardRef((props,ref) =>{
                                             </Typography>
                                             <Typography variant = "subtitle2">Master of Science (Information Technology)</Typography>
                                             <Typography>Central University of Himachal Pradesh</Typography>
+                                        </Paper>
+                                    </ScrollAnimation>
+                                </TimelineContent>
+                            </TimelineItem>
+                        </Timeline>
+                    </Grid>
+                    <Grid item xs = {6} style={{width:'800px',textAlign:'center'}}>
+                        <Timeline align="alternate">
+                            <TimelineItem>
+                                <TimelineOppositeContent>
+                                    <Typography variant="subtitle2">
+                                        Jan 2021-May 2022
+                                    </Typography>
+                                </TimelineOppositeContent>
+                                <TimelineSeparator>
+                                    <TimelineDot style={{backgroundColor:'black'}}>
+                                        <ClassIcon />
+                                    </TimelineDot>
+                                    <TimelineConnector style={{height:'150px',backgroundColor:'black'}}/>
+                                </TimelineSeparator>
+                                <TimelineContent>
+                                    <ScrollAnimation animateIn="flipInX"  animateOnce = {true} >
+                                        <Paper variant = "outlined" className={classes.edupap}>
+                                            <Typography variant="h6" component="h1">
+                                                Compact Gyan
+                                            </Typography>
+                                            <Typography variant = "subtitle2">Full Stack Developer</Typography>
+                                            <Typography>Delhi, India</Typography>
+                                        </Paper>
+                                    </ScrollAnimation>
+                                </TimelineContent>
+                            </TimelineItem>
+                            <TimelineItem>
+                                <TimelineOppositeContent>
+                                    <Typography variant="subtitle2">
+                                        May 2022-Present
+                                    </Typography>
+                                </TimelineOppositeContent>
+                                <TimelineSeparator>
+                                    <TimelineDot style={{backgroundColor:'black'}}>
+                                        <MenuBookIcon />
+                                    </TimelineDot>
+                                  
+                                </TimelineSeparator>
+                                <TimelineContent>
+                                    <ScrollAnimation animateIn="flipInX"  animateOnce = {true} >
+                                        <Paper variant = "outlined" className={classes.edupap} style={{textAlign:'center'}}>
+                                            <Typography variant="h6" component="h1">
+                                                iQueue 365
+                                            </Typography>
+                                            <Typography variant = "subtitle2">Co-Founder / Software Engineer</Typography>
+                                            <Typography>San Jose, California, USA</Typography>
                                         </Paper>
                                     </ScrollAnimation>
                                 </TimelineContent>

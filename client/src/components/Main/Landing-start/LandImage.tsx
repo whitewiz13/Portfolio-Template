@@ -196,7 +196,7 @@ export const LandImage:React.FC<Props> = forwardRef((props,ref) => {
         <Grid alignItems="center" direction="column" container>
             <Grid item xs={12} className = {classes.avatar}>
               <Grow in timeout={1000}>
-                  <Avatar alt="Remy Sharp" src="https://i.imgur.com/V73ewu1.jpg" className={classes.large} />
+                  <Avatar alt="Remy Sharp" src="https://i.imgur.com/kmzNvPJ_d.webp?maxwidth=760&fidelity=grand" className={classes.large} />
               </Grow>
             </Grid>
             <Grid item xs={12} className = {classes.mainContent}>
@@ -222,7 +222,7 @@ export const LandImage:React.FC<Props> = forwardRef((props,ref) => {
                     </Hidden>
                     <Slide in direction = "right" timeout={1000}>
                         <Typography component="h6" variant="h6" color="inherit" className = {classes.mainText}>
-                            A computer science <strong>professional</strong>
+                            A computer science <strong>professional /  Software Engineer</strong>
                         </Typography>
                     </Slide>
                 </div>
@@ -247,10 +247,10 @@ export const LandImage:React.FC<Props> = forwardRef((props,ref) => {
                         </Slide>
                       </Hidden>*/}
                 <Slide in direction = "right" timeout={1000}>
-                      <Button size ="large" variant = "outlined" color ="inherit" style={{marginLeft:'10px'}}
+                      <Button size ="large" variant = "outlined" color ="inherit" style={{marginLeft:'10px',textTransform:'none'}}
                       onClick = {()=>{
                         setBackdrop(true);
-                        window.location.href = "https://drive.google.com/file/d/1k3uM20dOvBlpYwOn6VFCgSOdObmS0kgO/view?usp=sharing";
+                        window.location.href = "https://docs.google.com/document/d/1bVKbFbwOyCf9IbY4CzsqRf8V4PNHdr0tPDFtA_RQsLI";
                         setTimeout(()=>{setBackdrop(false)},3000);}}>Download CV</Button>
                 </Slide>
             </Grid>

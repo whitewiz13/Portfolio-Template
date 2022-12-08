@@ -109,12 +109,12 @@ export const Header:React.FC<{scrollTo(val),setBackDrop(val)}> = (props)=>{
                         <Hidden xsDown>
                             <Slide in direction = "down" timeout={600}>
                                 <div>
-                                    <Button color="inherit" onClick = {()=>{props.scrollTo("About")}}>About me</Button>
-                                    <Button color="inherit" onClick = {()=>{props.scrollTo("Edu")}}>Education</Button>
-                                    <Button color="inherit" onClick = {()=>{props.scrollTo("Skill")}}>Skills</Button>
-                                    <Button color="inherit" onClick = {()=>{props.scrollTo("Project")}}>Projects</Button>
-                                    <Button color="inherit" onClick = {()=>{props.scrollTo("Blog")}}>Blog</Button>
-                                    <Button color="inherit" onClick = {()=>{props.scrollTo("Contact")}}>Contact Me</Button>
+                                    <Button style={{textTransform:'none'}} color="inherit" onClick = {()=>{props.scrollTo("About")}}>About me</Button>
+                                    <Button style={{textTransform:'none'}} color="inherit" onClick = {()=>{props.scrollTo("Edu")}}>Education / Experience</Button>
+                                    <Button style={{textTransform:'none'}} color="inherit" onClick = {()=>{props.scrollTo("Skill")}}>Skills</Button>
+                                    <Button style={{textTransform:'none'}} color="inherit" onClick = {()=>{props.scrollTo("Project")}}>Projects</Button>
+                                    <Button style={{textTransform:'none'}}color="inherit" onClick = {()=>{props.scrollTo("Blog")}}>Blog</Button>
+                                    {/* <Button style={{textTransform:'none'}} color="inherit" onClick = {()=>{props.scrollTo("Contact")}}>Contact Me</Button> */}
                                 </div>
                             </Slide>
                         </Hidden>

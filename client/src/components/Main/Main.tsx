@@ -28,7 +28,7 @@ export const Main = () =>{
     const AboutRef = useRef<any>();
     const EduRef = useRef<any>();
     const SkillRef = useRef<any>();
-    const ProjRef = useRef<any>(); ref
+    const ProjRef = useRef<any>();
     const BlogRef = useRef<any>();
     const ContactRef = useRef<any>();
 
@@ -60,8 +60,8 @@ export const Main = () =>{
             <Education ref = {EduRef}/>
             <Skill ref ={SkillRef}/>
             <Project ref = {ProjRef} setBackdrop = {setBackdrop}/>
-            <Blog ref ={BlogRef} setBackDrop = {setBackdrop}/>
-            <Contact ref = {ContactRef}/>
+            {/* <Blog ref ={BlogRef} setBackDrop = {setBackdrop}/> */}
+            {/* <Contact ref = {ContactRef}/> */}
             <Footer setBackdrop = {setBackdrop}/>
             <Backdrop className={classes.backdrop} open={backDrop}>
                 <CircularProgress color="inherit" />
